@@ -1,0 +1,12 @@
+server:
+  port: 51801
+spring:
+  application:
+    name: leadnews-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://yhlovegsn.top:8848
+      config:
+        server-addr: http://yhlovegsn.top:8848
+        file-extension: yml
